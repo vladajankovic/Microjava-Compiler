@@ -1,0 +1,31 @@
+// Syntax error test 2 - variable assignment statements
+
+program errortest
+
+int i2;
+
+char c2, c3;
+
+bool b2, b3[];
+
+
+{
+	
+	void main()
+	{
+		i2 = ;
+		
+		c2 = 'b';
+		
+		c3 = 'c'
+		+;
+		
+		c2 = +;
+		
+		i2 = 10;
+		
+		b2;
+		
+	}
+}
+
