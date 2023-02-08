@@ -1,0 +1,24 @@
+program ABC
+
+const int N = 2;
+int g;
+
+{
+
+	void main() 
+		int x, y;
+		int niz[];
+		
+	{
+		g = N;
+		y = 53;
+		g++;
+		x = -y + g * N;
+		niz = new int[N + 1];
+		niz[0] = niz[x + y - 4];
+		niz[1]++;			
+		print(niz[0]);
+		print(niz[1]);
+	}
+
+}

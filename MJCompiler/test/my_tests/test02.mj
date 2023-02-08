@@ -1,0 +1,64 @@
+program testmoj
+
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+
+	int niz[];
+	char nizch[];
+
+{	
+	
+	int sum(int a, int b, int c, int d)
+	{
+		return a + b + c + d;
+	}
+	
+	int dec(int a, int b)
+	{
+		return a - b;
+	}
+	
+	void main()	
+		int bodovi;
+		int x;
+		bool bt;
+	{
+	    bodovi = -55 * 2 + 5;
+	    
+	    x = bodovi / pet;
+	    
+	    niz = new int[5];
+	    niz[0] = 6;
+	    x = len(niz);
+	    print(x);
+	    x = sum(4, 5, niz[x*1-5], x); 
+	    print(x);
+	    x = dec(5, 4);
+	    print(x);
+	    print(ord('A')); 
+	    x = niz[5 - 2 * 1] + (6 + 9) % 7;
+	    
+		print('a');
+		print(1);
+		print(jedan);
+		print(bodovi);
+		print(x);
+		print(chr(72));
+		
+		read(x);
+		print('A',20);
+		
+		x=3;
+		
+		if(5==2 && 9!=7 && (9+3)==8 || 4 < 9 || 9 > 3 && 4 <= 9)
+		{
+			x--;
+			print(x);
+		}
+		else {
+		print(68);
+		}
+
+	}
+}

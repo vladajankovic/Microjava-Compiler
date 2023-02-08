@@ -1,0 +1,33 @@
+// Syntax error test 1 - global variables definition
+
+program errortest
+
+const int i1 = 1;
+const int i2 = 2, i3 = 3;
+
+const int i4 = 4+;
+
+const int i5 = 5+, i6 = 6;
+
+const int i7;
+
+char c1;
+char c2, c3;
+
+char c4--;
+char c5 +, c6 ;
+
+bool b1[];
+bool b2[], b3[];
+
+bool b4[, b5][;
+
+
+{
+	
+	void main()
+	{
+		
+	}
+}
+

@@ -1,0 +1,24 @@
+// Syntax error test 3 - formal parameters in function delcaration
+
+program errortest
+
+{
+
+	void func1(int i) {}
+	
+	void func2(int i, char c) {}
+	
+	void func3(int a*) {}
+	
+	void func4(int a*, int b) {}
+	
+	void func5(int a*, int b*) {}
+	
+	void func6(int a, int b*) {}
+	
+	void main()
+	{
+		
+	}
+}
+

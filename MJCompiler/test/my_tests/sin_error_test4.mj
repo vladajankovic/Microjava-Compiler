@@ -1,0 +1,30 @@
+// Syntax error test 4 - if statement condition error
+
+program errortest
+
+bool flag;
+
+int a, b;
+
+{
+	
+	void main()
+	{
+	
+		if (flag) {}
+		
+		if (a>b) {}
+		else {}
+		
+		if (a,b) {}
+		
+		if () {}
+		else {}
+		
+		if (a+b > a-b) {}
+		
+		if (a+b => a-b) {}
+		
+	}
+}
+
